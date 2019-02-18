@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * 使用spring-boot提供的默认缓存  ConcurrentMapCacheManager
+ * 使用redis进行缓存数据
  *
  * @CachePut 缓存更新或新增的数据
  * @CacheEvict 清除缓存
