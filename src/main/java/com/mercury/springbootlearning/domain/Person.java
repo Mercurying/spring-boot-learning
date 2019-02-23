@@ -3,6 +3,7 @@ package com.mercury.springbootlearning.domain;
 
 import javax.persistence.*;
 
+// 命名查询 @NamedQuery
 @Entity
 @NamedQuery(name = "Person.withNameAndAddressNamedQuery",
         query = "select p from Person p where p.name=?1 and p.address=?2")
